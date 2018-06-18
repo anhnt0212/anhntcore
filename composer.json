@@ -9,7 +9,7 @@
   "homepage": "https://github.com/anhnt0212/",
   "license": "MIT",
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.0"
   },
   "autoload": {
     "psr-4": {
