@@ -17,6 +17,5 @@
     }
   },
 
-  "include-path": ["src/"],
-  "prefer-stable": true
+  "include-path": ["src/"]
 }
