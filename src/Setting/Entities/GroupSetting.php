@@ -1,6 +1,6 @@
 <?php
 
-namespace LibLaravelSetting\Entities;
+namespace LibLaravel\Setting\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -12,6 +12,6 @@ class GroupSetting extends Model
 
     public function settings()
     {
-        return $this->hasMany('Core\Entities\Setting');
+        return $this->hasMany('LibLaravel\Setting\Entities\Setting');
     }
 }

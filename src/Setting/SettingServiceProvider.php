@@ -1,6 +1,6 @@
 <?php
 
-namespace LibLaravelSetting;
+namespace LibLaravel\Setting;
 
 use Illuminate\Support\ServiceProvider;
 

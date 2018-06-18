@@ -1,6 +1,6 @@
 <?php
 
-namespace LibLaravelFoundation\Http;
+namespace LibLaravel\Foundation\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 

@@ -1,9 +1,9 @@
 <?php
-namespace LibLaravelSetting;
+namespace LibLaravel\Setting;
 
-use Core\Contracts\SettingStorage as SettingStorageContract;
+use LibLaravel\Setting\Contracts\SettingStorage as SettingStorageContract;
 use Illuminate\Contracts\Cache\Repository as Cache;
-use Core\Setting\Entities\Setting;
+use LibLaravel\Setting\Entities\Setting;
 
 class SettingStorage implements SettingStorageContract
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LibLaravelSetting\Facades;
+namespace LibLaravel\Setting\Facades;
 use Illuminate\Support\Facades\Facade;
 
 class SettingFacade extends Facade {

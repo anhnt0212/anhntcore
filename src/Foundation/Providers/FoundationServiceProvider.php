@@ -1,6 +1,6 @@
 <?php
 
-namespace LibLaravelFoundation\Providers;
+namespace LibLaravel\Foundation\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
@@ -20,8 +20,8 @@ class FoundationServiceProvider extends ServiceProvider
      * @var array
      */
     protected $providers = [
-        \Core\Setting\SettingServiceProvider::class,
-        \Core\Seo\SEOServiceProvider::class,
+        \LibLaravel\Setting\SettingServiceProvider::class,
+        \LibLaravel\Seo\SEOServiceProvider::class,
     ];
 
     /**
@@ -30,8 +30,8 @@ class FoundationServiceProvider extends ServiceProvider
      * @var array
      */
     protected $facades = [
-        'SEO'       => \Core\Seo\SEOFacade::class,
-        'Setting'   => \Core\Setting\Facades\SettingFacade::class,
+        'SEO'       => \LibLaravel\Seo\SEOFacade::class,
+        'Setting'   => \LibLaravel\Setting\Facades\SettingFacade::class,
     ];
 
     /**
@@ -40,7 +40,7 @@ class FoundationServiceProvider extends ServiceProvider
      * @var array
      */
     protected $commands = [
-        \Core\Foundation\Console\BuildCommand::class,
+        \LibLaravel\Foundation\Console\BuildCommand::class,
     ];
 
     /**

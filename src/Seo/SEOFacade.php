@@ -1,5 +1,5 @@
 <?php
-namespace LibLaravelSeo;
+namespace LibLaravel\Seo;
 
 use Illuminate\Support\Facades\Facade;
 

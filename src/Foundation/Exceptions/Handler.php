@@ -1,6 +1,6 @@
 <?php
 
-namespace LibLaravelFoundation\Exceptions;
+namespace LibLaravel\Foundation\Exceptions;
 
 use Exception;
 use Illuminate\Mail\Message;

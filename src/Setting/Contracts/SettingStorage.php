@@ -1,4 +1,5 @@
-<?php namespace LibLaravelContracts;
+<?php
+namespace LibLaravel\Setting\Contracts;
 
 interface SettingStorage
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LibLaravelSetting\Entities;
+namespace LibLaravel\Setting\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 use Cache;
