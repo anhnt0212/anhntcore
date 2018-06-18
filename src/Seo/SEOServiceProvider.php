@@ -39,6 +39,6 @@ class SEOServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return array('seo' ,'Core\Html\SEO');
+        return array('seo' ,'LaravelLib\Seo\SEO');
     }
 }
